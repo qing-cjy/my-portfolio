@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <section className="bg-[#0a0a0a] text-white min-h-screen flex items-center justify-center py-20 md:py-0">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center px-6 gap-12">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center px-4 sm:px-6 lg:px-12 gap-12">
         <div className="lg:w-1/2 text-center lg:text-left">
           <h1 className="text-5xl lg:text-7xl font-bold mb-4">
             你好，我是 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">开发者</span>

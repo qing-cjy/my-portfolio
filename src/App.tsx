@@ -5,10 +5,8 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className="App">
-      <main className="max-w-6xl mx-auto">
-        <Hero />
-        <Projects />
-      </main>
+      <Hero />
+      <Projects />
     </div>
   );
 }
