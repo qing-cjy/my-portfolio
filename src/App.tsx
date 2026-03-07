@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     >
       <Hero />
       <Projects />
+      <Analytics />
     </motion.div>
   );
 }
